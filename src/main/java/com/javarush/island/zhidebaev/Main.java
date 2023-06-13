@@ -1,11 +1,35 @@
 package com.javarush.island.zhidebaev;
 
-import java.util.concurrent.ThreadLocalRandom;
+import com.javarush.island.zhidebaev.animals.Wolf;
+import com.javarush.island.zhidebaev.entities.Animal;
+import com.javarush.island.zhidebaev.entities.Entity;
+
 
 public class Main {
     public static void main(String[] args) {
-       // int rand = ThreadLocalRandom.current().nextInt(1,7);
-       // System.out.println("Value: " + rand);
-        System.out.println("\uD83D\uDC3A");
+
+       // System.out.println("\uD83D\uDC3A");
+//        int i =  Randomizer.getRand(1,11);
+//        int j = Randomizer.getRand(0,2);
+//        System.out.println(i);System.out.println(j);
+//        System.out.println("Большее число из 2 чисел: " + Math.max(1,2));
+       // Animal wolf = new Wolf(50,30,3,8);
+       // System.out.println(wolf);
+        System.out.println((int)(Math.random()*10));
+//        System.out.println(wolf.satiety);
+//        System.out.println(wolf.speed);
+//        System.out.println(wolf.weight);
+//        System.out.println(wolf.maxNumberOfSpecies);
+//
+//
+//        System.out.println();
+//        wolf.eat();
+//        wolf.move();
+//        wolf.reproduse();
+//        wolf.die();
+
+        //System.out.println(wolf.characteristics().toString());
+      //  System.out.println(wolf.characteristics().isEmpty());
     }
+
 }
