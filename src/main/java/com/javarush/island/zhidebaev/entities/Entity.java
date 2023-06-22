@@ -4,6 +4,8 @@ public abstract class Entity {
     int weight; // -- вес (в кг)--
     int maxNumberOfSpecies; // -- Максимальное количество в одной клетке --
 
+
+
         Entity(int weight, int maxNumberOfSpecies) {
         this.weight = weight;
         this.maxNumberOfSpecies = maxNumberOfSpecies;

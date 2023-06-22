@@ -1,16 +1,21 @@
 package com.javarush.island.zhidebaev;
 
-import com.javarush.island.zhidebaev.animals.AnimalFactory;
+import com.javarush.island.zhidebaev.island.Island;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(AnimalFactory.createAnimal("Fox",5));
 
-       // Island.printField(Island.makeField());
-    //    System.out.println(Island.getLocation(4,5));
-
+    //----------------------------- Фабрика животных -------------------------------------------------
+        //System.out.println(AnimalFactory.createAnimal("Fox",5));
+       // System.out.println(new Plants());
+    //----------------------------- Инициализация острова -------------------------------------------------
+         Island.init();
+            System.out.println(Island.getLocation(4,5).getPlants().size());
+        System.out.println(Island.getLocation(5,5).getPlants().size());
+        System.out.println(Island.getLocation(2,5).getPlants().size());
+    //-----------------------------------------------------------------------------------------------------
         //AnimalCharacteristics.
 
        // System.out.println("\uD83D\uDC3A");
