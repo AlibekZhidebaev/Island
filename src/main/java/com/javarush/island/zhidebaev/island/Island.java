@@ -10,7 +10,7 @@ import java.util.List;
 
 public final class Island {
 
-    private static List<Location> field = new ArrayList<>(); // -- Поле ввиде списка локации --
+    private static final List<Location> field = new ArrayList<>(); // -- Поле ввиде списка локации --
 
     // -- Метод инициализации острова --
     public static void init(){
@@ -51,7 +51,7 @@ public final class Island {
     // -- метод добавления растительностей в каждую локацию --
     public static void  addPlants(){
         for(Location location : field)
-        for (int i = 0; i < Randomizer.getRand(100,180); i++) {
+        for(int i = 0; i < Randomizer.getRand(120,180); i++) {
             location.getPlants().add(new Plant());
         }
     }

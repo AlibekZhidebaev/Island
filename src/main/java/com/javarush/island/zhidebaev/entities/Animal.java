@@ -2,12 +2,12 @@ package com.javarush.island.zhidebaev.entities;
 
 public abstract class Animal extends Entity{
 
-    public int weight; // -- вес (в кг)--
-    public int maxNumberOfSpecies; // -- Максимальное количество в одной клетке --
-    public int speed; // -- скорость перемещения (не более чем, клеток за ход) --
-    public int satiety; // -- насыщение (в кг) --
+    public double weight; // -- вес (в кг)--
+    public double maxNumberOfSpecies; // -- Максимальное количество в одной клетке --
+    public double speed; // -- скорость перемещения (не более чем, клеток за ход) --
+    public double satiety; // -- насыщение (в кг) --
 
-    protected Animal(int weight, int maxNumberOfSpecies, int speed, int satiety) {
+    protected Animal(double weight, double maxNumberOfSpecies, double speed, double satiety) {
         super(weight, maxNumberOfSpecies);
         this.weight = super.weight;
         this.maxNumberOfSpecies = super.maxNumberOfSpecies;

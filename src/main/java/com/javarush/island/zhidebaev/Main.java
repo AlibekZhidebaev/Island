@@ -12,7 +12,7 @@ public class Main {
        // System.out.println(new Plants());
     //----------------------------- Инициализация острова -------------------------------------------------
          Island.init();
-            System.out.println(Island.getLocation(4,5).getPlants().size());
+        System.out.println(Island.getLocation(4,5).getPlants().size());
         System.out.println(Island.getLocation(5,5).getPlants().size());
         System.out.println(Island.getLocation(2,5).getPlants().size());
     //-----------------------------------------------------------------------------------------------------

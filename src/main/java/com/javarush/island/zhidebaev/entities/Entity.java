@@ -1,12 +1,12 @@
 package com.javarush.island.zhidebaev.entities;
 
 public abstract class Entity {
-    int weight; // -- вес (в кг)--
-    int maxNumberOfSpecies; // -- Максимальное количество в одной клетке --
+    double weight; // -- вес (в кг)--
+    double maxNumberOfSpecies; // -- Максимальное количество в одной клетке --
 
 
 
-        Entity(int weight, int maxNumberOfSpecies) {
+        Entity(double weight, double maxNumberOfSpecies) {
         this.weight = weight;
         this.maxNumberOfSpecies = maxNumberOfSpecies;
     }

@@ -6,7 +6,7 @@ import com.javarush.island.zhidebaev.entities.Predators;
 
 public class Fox extends Animal implements Predators {
     private final String icon= "ЛИС";
-    public Fox(int weight, int maxNumberOfSpecies, int speed, int satiety){
+    public Fox(double weight, double maxNumberOfSpecies, double speed, double satiety){
         super(weight, maxNumberOfSpecies, speed, satiety);
     }
 
