@@ -4,15 +4,15 @@ import com.javarush.island.zhidebaev.entities.Animal;
 import com.javarush.island.zhidebaev.entities.Predators;
 
 
-public class Wolf extends Animal implements Predators {
-    private final String icon= "\uD83D\uDC3A";
-    public Wolf(int weight, int maxNumberOfSpecies, int speed, int satiety){
+public class Snake extends Animal implements Predators {
+    private final String icon= "Питон";
+    public Snake(int weight, int maxNumberOfSpecies, int speed, int satiety){
         super(weight, maxNumberOfSpecies, speed, satiety);
     }
 
     @Override
     public void eat() {
-        System.out.println("я волк - люблю мясо");
+        System.out.println("я Питон - люблю мясо");
     }
 
     @Override
