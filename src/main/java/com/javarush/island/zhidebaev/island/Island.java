@@ -1,5 +1,6 @@
 package com.javarush.island.zhidebaev.island;
 
+import com.javarush.island.zhidebaev.animals.AnimalFactory;
 import com.javarush.island.zhidebaev.constants.IslandConstants;
 import com.javarush.island.zhidebaev.entities.Plant;
 import com.javarush.island.zhidebaev.services.Randomizer;
@@ -17,6 +18,7 @@ public final class Island {
         List<Location> field = makeField();
         printField(field);
         addPlants();
+        AnimalFactory.addAnimals();
     }
 
     // -- Метод создания списка локации --
@@ -51,7 +53,7 @@ public final class Island {
     // -- метод добавления растительностей в каждую локацию --
     public static void  addPlants(){
         for(Location location : field)
-        for(int i = 0; i < Randomizer.getRand(120,180); i++) {
+        for(int i = 0; i < Randomizer.randomNumber(120,180); i++) {
             location.getPlants().add(new Plant());
         }
     }

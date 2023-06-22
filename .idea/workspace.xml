@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa4a6f9-5409-4f5e-95b9-6b271413f9b7" name="Changes" comment="Initialization_of_the_island_with_plants">
+    <list default="true" id="7fa4a6f9-5409-4f5e-95b9-6b271413f9b7" name="Changes" comment="add_animal_characters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/AnimalCharacteristics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/AnimalCharacteristics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/IslandConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/IslandConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/Island.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Randomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Randomizer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687411664441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add_animal_characters">
+      <created>1687416164360</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687416164360</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +154,7 @@
     <MESSAGE value="creating hierarchies" />
     <MESSAGE value="creating_Island_&amp;_Animal_Factory" />
     <MESSAGE value="Initialization_of_the_island_with_plants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialization_of_the_island_with_plants" />
+    <MESSAGE value="add_animal_characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_animal_characters" />
   </component>
 </project>

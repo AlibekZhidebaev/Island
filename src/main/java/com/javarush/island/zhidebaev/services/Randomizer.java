@@ -8,7 +8,7 @@ public final class Randomizer {
 
 
     // -- --
-    public static int getRand(int lowerBounds, int upperBounds) {
+    public static int randomNumber(int lowerBounds, int upperBounds) {
         return ThreadLocalRandom.current().nextInt(lowerBounds,upperBounds);
     }
     // -- метод для определения половой принадлежности животных с вероятностью 50 на 50 --

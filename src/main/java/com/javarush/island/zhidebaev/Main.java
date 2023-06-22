@@ -1,5 +1,6 @@
 package com.javarush.island.zhidebaev;
 
+import com.javarush.island.zhidebaev.animals.AnimalFactory;
 import com.javarush.island.zhidebaev.island.Island;
 
 
@@ -12,9 +13,22 @@ public class Main {
        // System.out.println(new Plants());
     //----------------------------- Инициализация острова -------------------------------------------------
          Island.init();
-        System.out.println(Island.getLocation(4,5).getPlants().size());
-        System.out.println(Island.getLocation(5,5).getPlants().size());
-        System.out.println(Island.getLocation(2,5).getPlants().size());
+
+        //AnimalFactory.createAnimals("Fox",100);
+        System.out.println(Island.getLocation(0,1).getPlants().size());
+        System.out.println(Island.getLocation(1,1).getPlants().size());
+        System.out.println(Island.getLocation(2,2).getPlants().size());
+        System.out.println("\n--------------------------------------------\n");
+        System.out.println(Island.getLocation(0,0).getAnimals().size());
+        System.out.println(Island.getLocation(0,1).getAnimals().size());
+        System.out.println(Island.getLocation(0,2).getAnimals().size());
+        System.out.println(Island.getLocation(1,0).getAnimals().size());
+        System.out.println(Island.getLocation(1,1).getAnimals().size());
+        System.out.println(Island.getLocation(1,2).getAnimals().size());
+        System.out.println(Island.getLocation(2,0).getAnimals().size());
+        System.out.println(Island.getLocation(2,1).getAnimals().size());
+        System.out.println(Island.getLocation(2,2).getAnimals().size());
+
     //-----------------------------------------------------------------------------------------------------
         //AnimalCharacteristics.
 

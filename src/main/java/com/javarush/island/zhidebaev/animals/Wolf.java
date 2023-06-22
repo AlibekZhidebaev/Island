@@ -5,6 +5,8 @@ import com.javarush.island.zhidebaev.entities.Predators;
 
 
 public class Wolf extends Animal implements Predators {
+
+
     private final String icon= "\uD83D\uDC3A";
     public Wolf(double weight, double maxNumberOfSpecies, double speed, double satiety){
         super(weight, maxNumberOfSpecies, speed, satiety);
