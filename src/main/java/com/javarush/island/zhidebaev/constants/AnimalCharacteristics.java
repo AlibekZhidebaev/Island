@@ -28,4 +28,25 @@ public final class AnimalCharacteristics {
 
     public static final List<Double> plantsCharacter = new ArrayList<>(List.of(1.0, 200.0));
 
+    /*
+    ВОЛК (WOLF) = "\uD83D\uDC3A"
+    ЛИСА (FOX) = "\uD83E\uDD8A"
+    ЗМЕЯ (SNAKE) = "\uD83D\uDC0D"
+    МЕДВЕДЬ (BEAR) = "\uD83D\uDC3B"
+    ОРЕЛ (EAGLE) = "\uD83E\uDD85"
+
+    ЛОШАДЬ (HORSE) = "\uD83D\uDC34"
+    ОЛЕНЬ (DEER) = "\uD83E\uDD8C"
+    КРОЛИК (RABBIT) = "\uD83D\uDC30"
+    МЫШЬ (MOUSE) = "\uD83D\uDC2D"
+    КОЗА (GOAT) = "\uD83D\uDC10"
+
+    ОВЦА (SHEEP) = "\uD83D\uDC11"
+    КАБАН (BOAR) = "\uD83D\uDC17"
+    БУЙВОЛ (BUFFALO) = "\uD83D\uDC03"
+    УТКА (DUCK) = "\uD83E\uDD86"
+    ГУСЕНИЦА (CATERPILLAR) = "\uD83D\uDC1B"
+
+    РАСТЕНИЕ (PLANTS) = "\uD83C\uDF31"
+     */
 }
