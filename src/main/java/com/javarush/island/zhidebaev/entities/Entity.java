@@ -1,6 +1,10 @@
 package com.javarush.island.zhidebaev.entities;
 
 public abstract class Entity {
+
+
+
+
     double weight; // -- вес (в кг)--
     double maxNumberOfSpecies; // -- Максимальное количество в одной клетке --
 
@@ -16,7 +20,7 @@ public abstract class Entity {
 
     @Override
     public String toString() {
-        return   "\n" + this.getClass().getSimpleName() + " => " +
+        return   "\n" + this.getClass().getSimpleName() +" ["+"\uD83E\uDD8A"+ "]" + " => " +
                 "| Вес = " + weight + " кг " +
                 "| Максимальное количество в ячейке = " + maxNumberOfSpecies + " особей |";
     }

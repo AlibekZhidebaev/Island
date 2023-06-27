@@ -1,33 +1,37 @@
 package com.javarush.island.zhidebaev;
 
-import com.javarush.island.zhidebaev.animals.AnimalFactory;
+import com.javarush.island.zhidebaev.animals.*;
 import com.javarush.island.zhidebaev.island.Island;
 
 
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println( new Wolf(5,5,5,5).getIcon());
+        System.out.println( new Snake(5,5,5,5).getIcon());
+        System.out.println( new Fox(5,5,5,5).getIcon());
+        System.out.println( new Sheep(5,5,5,5).getIcon());
 
     //----------------------------- Фабрика животных -------------------------------------------------
         //System.out.println(AnimalFactory.createAnimal("Fox",5));
        // System.out.println(new Plants());
     //----------------------------- Инициализация острова -------------------------------------------------
-         Island.init();
+         //Island.init();
 
-        //AnimalFactory.createAnimals("Fox",100);
-        System.out.println(Island.getLocation(0,1).getPlants().size());
-        System.out.println(Island.getLocation(1,1).getPlants().size());
-        System.out.println(Island.getLocation(2,2).getPlants().size());
-        System.out.println("\n--------------------------------------------\n");
-        System.out.println(Island.getLocation(0,0).getAnimals().size());
-        System.out.println(Island.getLocation(0,1).getAnimals().size());
-        System.out.println(Island.getLocation(0,2).getAnimals().size());
-        System.out.println(Island.getLocation(1,0).getAnimals().size());
-        System.out.println(Island.getLocation(1,1).getAnimals().size());
-        System.out.println(Island.getLocation(1,2).getAnimals().size());
-        System.out.println(Island.getLocation(2,0).getAnimals().size());
-        System.out.println(Island.getLocation(2,1).getAnimals().size());
-        System.out.println(Island.getLocation(2,2).getAnimals().size());
+        //--Test section---------------------------------------------------------
+//        System.out.println(Island.getLocation(0,1).getPlants().size());
+//        System.out.println(Island.getLocation(1,1).getPlants().size());
+//        System.out.println(Island.getLocation(2,2).getPlants().size());
+//        System.out.println("\n--------------------------------------------\n");
+//        System.out.println(Island.getLocation(0,0).getAnimals().size());
+//        System.out.println(Island.getLocation(0,1).getAnimals().size());
+//        System.out.println(Island.getLocation(0,2).getAnimals().size());
+//        System.out.println(Island.getLocation(1,0).getAnimals().size());
+//        System.out.println(Island.getLocation(1,1).getAnimals().size());
+//        System.out.println(Island.getLocation(1,2).getAnimals().size());
+//        System.out.println(Island.getLocation(2,0).getAnimals().size());
+//        System.out.println(Island.getLocation(2,1).getAnimals().size());
+//        System.out.println(Island.getLocation(2,2).getAnimals().size());
 
     //-----------------------------------------------------------------------------------------------------
         //AnimalCharacteristics.
