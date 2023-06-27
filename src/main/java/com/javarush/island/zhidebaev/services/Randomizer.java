@@ -15,6 +15,10 @@ public final class Randomizer {
     public static String getSex () {
         return ThreadLocalRandom.current().nextInt(0,100) < 50 ? "male":"female" ;
     }
+    // -- метод для определения съедания жертвы хищником с заданной вероятностью --
+    public static boolean getAte (int chance) {
+        return ThreadLocalRandom.current().nextInt(0,100) < chance ? true : false;
+    }
 
     // -- метод для возвращения значения переменной движения в зависимости от случайных чисел от 1 до 4 --
     public static String getMove() {

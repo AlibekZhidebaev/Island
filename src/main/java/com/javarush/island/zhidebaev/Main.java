@@ -2,6 +2,7 @@ package com.javarush.island.zhidebaev;
 
 import com.javarush.island.zhidebaev.animals.*;
 import com.javarush.island.zhidebaev.island.Island;
+import com.javarush.island.zhidebaev.services.Randomizer;
 
 
 public class Main {
@@ -11,6 +12,7 @@ public class Main {
         System.out.println( new Snake(5,5,5,5).getIcon());
         System.out.println( new Fox(5,5,5,5).getIcon());
         System.out.println( new Sheep(5,5,5,5).getIcon());
+        System.out.println(Randomizer.getAte(60));
 
     //----------------------------- Фабрика животных -------------------------------------------------
         //System.out.println(AnimalFactory.createAnimal("Fox",5));

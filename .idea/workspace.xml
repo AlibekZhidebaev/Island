@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa4a6f9-5409-4f5e-95b9-6b271413f9b7" name="Changes" comment="island_initialization_with_animals">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Sheep.java" afterDir="false" />
+    <list default="true" id="7fa4a6f9-5409-4f5e-95b9-6b271413f9b7" name="Changes" comment="add_icon_Animal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/AnimalCharacteristics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/AnimalCharacteristics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Randomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Randomizer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687435631919</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add_icon_Animal">
+      <created>1687852090612</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687852090612</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +165,7 @@
     <MESSAGE value="Initialization_of_the_island_with_plants" />
     <MESSAGE value="add_animal_characters" />
     <MESSAGE value="island_initialization_with_animals" />
-    <option name="LAST_COMMIT_MESSAGE" value="island_initialization_with_animals" />
+    <MESSAGE value="add_icon_Animal" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_icon_Animal" />
   </component>
 </project>
