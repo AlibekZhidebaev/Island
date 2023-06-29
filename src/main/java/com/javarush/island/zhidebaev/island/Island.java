@@ -1,6 +1,7 @@
 package com.javarush.island.zhidebaev.island;
 
 import com.javarush.island.zhidebaev.animals.AnimalFactory;
+import com.javarush.island.zhidebaev.constants.AnimalCharacteristics;
 import com.javarush.island.zhidebaev.constants.IslandConstants;
 import com.javarush.island.zhidebaev.entities.Plant;
 import com.javarush.island.zhidebaev.services.Randomizer;
@@ -11,7 +12,7 @@ import java.util.List;
 
 public final class Island {
 
-    private static final List<Location> field = new ArrayList<>(); // -- Поле ввиде списка локации --
+       private static final List<Location> field = new ArrayList<>(); // -- Поле ввиде списка локации --
 
     // -- Метод инициализации острова --
     public static void init(){

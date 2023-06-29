@@ -10,6 +10,7 @@ public class Wolf extends Animal implements Predators {
 
     public Wolf(double weight, double maxNumberOfSpecies, double speed, double satiety){
         super(weight, maxNumberOfSpecies, speed, satiety);
+        super.setIcon(super.icon = this.icon);
     }
 
     public String getIcon() {   return icon;   }

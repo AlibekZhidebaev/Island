@@ -1,22 +1,26 @@
 package com.javarush.island.zhidebaev.entities;
 
 
-public class Plant {
-    private final String icon= "РАСТЕНИЕ";
+public class Plant extends Entity{
+    private final String icon= "\uD83C\uDF31";
     int weight = 1; // -- вес (в кг)--
     int maxNumberOfSpecies = 200; // -- Максимальное количество в одной клетке --
-    public Plant(){
+
+    public Plant(double weight, double maxNumberOfSpecies) {
+        super(weight, maxNumberOfSpecies);
+        super.setIcon(super.icon = this.icon);
     }
-   public void reproduse() {
+
+    public Plant() {
+        super();
+        super.setIcon(super.icon = this.icon);
+
+    }
+
+    public void reproduse() {
         System.out.println("я размножаюсь");
     }
 
-    @Override
-    public String toString() {
-        return   "\n" + this.getClass().getSimpleName() + " => " +
-                "| Вес = " + weight + " кг " +
-                "| Максимальное количество в ячейке = " + maxNumberOfSpecies + " особей |";
-    }
 
     @Override
     public Object clone() throws CloneNotSupportedException {

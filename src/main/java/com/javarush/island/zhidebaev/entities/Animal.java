@@ -15,7 +15,6 @@ public abstract class Animal extends Entity{
         this.satiety = satiety;
     }
 
-
     // -- метод кушать --
     public abstract void eat();
 

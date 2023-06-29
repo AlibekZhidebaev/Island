@@ -3,23 +3,29 @@ package com.javarush.island.zhidebaev;
 import com.javarush.island.zhidebaev.animals.*;
 import com.javarush.island.zhidebaev.island.Island;
 import com.javarush.island.zhidebaev.services.Randomizer;
+import com.javarush.island.zhidebaev.services.Statistics;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println( new Wolf(5,5,5,5).getIcon());
-        System.out.println( new Snake(5,5,5,5).getIcon());
-        System.out.println( new Fox(5,5,5,5).getIcon());
-        System.out.println( new Sheep(5,5,5,5).getIcon());
-        System.out.println(Randomizer.getAte(60));
+//        System.out.println( new Wolf(5,5,5,5).getIcon());
+//        System.out.println( new Snake(5,5,5,5).getIcon());
+//        System.out.println( new Fox(5,5,5,5).getIcon());
+//        System.out.println( new Sheep(5,5,5,5).getIcon());
+//        System.out.println(Randomizer.getAte(60));
 
     //----------------------------- Фабрика животных -------------------------------------------------
         //System.out.println(AnimalFactory.createAnimal("Fox",5));
        // System.out.println(new Plants());
     //----------------------------- Инициализация острова -------------------------------------------------
-         //Island.init();
+         Island.init();
+        Statistics.printListForEachPlants();
+        Statistics.getCountAllAnimal();
+        //Statistics.
+        Statistics.printListForEachAnimal();
 
+       // System.out.println(Statistics.getAnimals(Fox.class).size());
         //--Test section---------------------------------------------------------
 //        System.out.println(Island.getLocation(0,1).getPlants().size());
 //        System.out.println(Island.getLocation(1,1).getPlants().size());

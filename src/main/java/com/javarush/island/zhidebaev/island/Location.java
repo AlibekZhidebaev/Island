@@ -5,7 +5,7 @@ import com.javarush.island.zhidebaev.entities.Plant;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class Location {
+public final class Location {
 // -- Координаты локации --
         private int x;
         private int y;
@@ -21,7 +21,11 @@ public class Location {
             this.y = y;
         }
 
-        // -- Сеттеры координат --
+    public Location() {
+
+    }
+
+    // -- Сеттеры координат --
         public void setX(int x) {
             this.x = x;
         }

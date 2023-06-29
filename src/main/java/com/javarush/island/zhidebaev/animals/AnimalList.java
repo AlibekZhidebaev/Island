@@ -31,6 +31,11 @@ public enum AnimalList {
     public static Animal create(String animal) {
         // -- Преобразование данных и получение соответствующей команды с помощью метода getFunction() --
         return AnimalList.valueOf(animal.toUpperCase()).getAnimal();
-
     }
+
+    public static String getIconAnimal(String animal) {
+        // -- Преобразование данных и получение соответствующей команды с помощью метода getFunction() --
+        return AnimalList.valueOf(animal.toUpperCase()).getAnimal().getIcon();
+    }
+
 }

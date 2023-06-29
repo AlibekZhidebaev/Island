@@ -26,7 +26,7 @@ public final class AnimalCharacteristics {
     public static final List<Double> duckCharacter = new ArrayList<>(List.of(1.0, 200.0, 4.0, 0.15));
     public static final List<Double> caterpillarCharacter = new ArrayList<>(List.of(0.01, 1000.0, 0.0, 0.0));
 
-    public static final List<Double> plantsCharacter = new ArrayList<>(List.of(1.0, 200.0));
+  //  public static final List<Double> plantsCharacter = new ArrayList<>(List.of(1.0, 200.0));
 
     /*
     ВОЛК (WOLF) = "\uD83D\uDC3A"
