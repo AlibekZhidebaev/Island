@@ -4,22 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa4a6f9-5409-4f5e-95b9-6b271413f9b7" name="Changes" comment="add_comment_animal_emoji">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Statistics.java" afterDir="false" />
+    <list default="true" id="7fa4a6f9-5409-4f5e-95b9-6b271413f9b7" name="Changes" comment="create_statistics_class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Actions/AnimalSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Actions/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Actions/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/PlantsCharacteristics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/AnimalList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Fox.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Snake.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/animals/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/AnimalCharacteristics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/AnimalCharacteristics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/FeedingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/FeedingMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/IslandConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/constants/IslandConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/entities/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/Island.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/island/LocationMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Randomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Randomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/island/zhidebaev/services/Statistics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +62,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2R3mnljONSgolWMZ1AGGB2TJJy0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,7 +90,9 @@
       <recent name="com.javarush.island.zhidebaev.animals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.island.zhidebaev.constants" />
       <recent name="com.javarush.island.zhidebaev.animals" />
+      <recent name="com.javarush.island.zhidebaev.island" />
       <recent name="com.javarush.island.zhidebaev.entities" />
     </key>
   </component>
@@ -169,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687862611233</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create_statistics_class">
+      <created>1688034175029</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688034175029</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +197,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -195,6 +221,12 @@
     <MESSAGE value="add_icon_Animal" />
     <MESSAGE value="add_method_getAte" />
     <MESSAGE value="add_comment_animal_emoji" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_comment_animal_emoji" />
+    <MESSAGE value="create_statistics_class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create_statistics_class" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/island$Main.ic" NAME="Main Coverage Results" MODIFIED="1690870323193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.javarush.island.zhidebaev.*</FILTER>
+    </SUITE>
   </component>
 </project>

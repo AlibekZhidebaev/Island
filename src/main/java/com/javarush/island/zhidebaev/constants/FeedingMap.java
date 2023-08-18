@@ -6,10 +6,10 @@ import java.util.Map;
     // -- Количество живностей - 15 --
 public final class FeedingMap {
 
-    // -- КАРТА ПИТАНИЯ ХИЩНИКОВ. Количество - 5 (Волк, Удав, Лиса, Медведь, Орел) --
+        // -- КАРТА ПИТАНИЯ ХИЩНИКОВ. Количество - 5 (Волк, Удав, Лиса, Медведь, Орел) --
 
     // -- Карта питания волка --
-    public final Map <String,Integer> wolfFeedingMap = new HashMap<String,Integer>() {{
+    public static final Map <String,Integer> wolfFeedingMap = new HashMap<String,Integer>() {{
         put("Horse", 10);
         put("Deer", 15);
         put("Rabbit", 60);
@@ -20,16 +20,16 @@ public final class FeedingMap {
         put("Buffalo", 10);
         put("Duck", 40);
     }};
-        public final Map <String,Integer> FeedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
+        public static final Map <String,Integer> feedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
 
 
     // -- КАРТА ПИТАНИЯ ВСЕЯДНЫХ. Количество - 3 (Мышь, Кабан, Утка) --
 
-    public final Map <String,Integer> mouseFeedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
-    public final Map <String,Integer> boareedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
-    public final Map <String,Integer> duckFeedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
+    public static final Map <String,Integer> mouseFeedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
+    public static final Map <String,Integer> boareedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
+    public static final Map <String,Integer> duckFeedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
 
 
     // -- КАРТА ПИТАНИЯ ТОЛЬКО ТРАВОЯДНЫХ. Количество - 7 (Лошадь, Олень, Кролик, Коза, Овца, Буйвол, Гусеница) --
-    public final Map <String,Integer> herbivoreFeedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
+    public static final Map <String,Integer> herbivoreFeedingMap = new HashMap<String,Integer>() {{  put("Plants", 100);  }};
 }

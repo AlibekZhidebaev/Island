@@ -1,9 +1,29 @@
 package com.javarush.island.zhidebaev.animals;
 
-import com.javarush.island.zhidebaev.entities.Animal;
 import com.javarush.island.zhidebaev.constants.AnimalCharacteristics;
+import com.javarush.island.zhidebaev.entities.Animal;
+import com.javarush.island.zhidebaev.island.Location;
 
-public enum AnimalList {
+public final class AnimalList {
+
+    public static  Animal create(String animal, Location locale) {
+        // -- Преобразование данных и получение соответствующей команды с помощью метода getFunction() --
+        Animal animalType = null;
+        switch (animal){
+        case "Wolf": animalType =new Wolf(AnimalCharacteristics.wolfIcon,0,0,0,0);
+                     animalType.setLocale(locale);
+        break;
+        case "SHEEP": animalType =new Sheep(AnimalCharacteristics.sheepIcon,0,0,0,0);
+                    animalType.setLocale(locale);
+                    break;
+      //  case "Snake": animalType =new Snake(0,0,0,0,locale); break;
+
+        }
+
+        return animalType;
+
+    }
+    /*
     WOLF(new Wolf(AnimalCharacteristics.wolfCharacter.get(0),
                   AnimalCharacteristics.wolfCharacter.get(1),
                   AnimalCharacteristics.wolfCharacter.get(2),
@@ -19,7 +39,7 @@ public enum AnimalList {
 
     private final Animal animal;
 
-    AnimalList(Animal animal) {
+    AnimalList2(Animal animal) {
         this.animal = animal;
     }
 
@@ -28,14 +48,14 @@ public enum AnimalList {
     }
 
     // -- метод find() (найти) для поиска команды в текущем списке --
-    public static Animal create(String animal) {
+    public static Animal create(String animal,Location locale) {
         // -- Преобразование данных и получение соответствующей команды с помощью метода getFunction() --
-        return AnimalList.valueOf(animal.toUpperCase()).getAnimal();
+       return AnimalList2.valueOf(animal.toUpperCase()).getAnimal();
     }
 
     public static String getIconAnimal(String animal) {
-        // -- Преобразование данных и получение соответствующей команды с помощью метода getFunction() --
-        return AnimalList.valueOf(animal.toUpperCase()).getAnimal().getIcon();
+        // -- ПрAnimalListеобразование данных и получение соответствующей команды с помощью метода getFunction() --
+        return AnimalList2.valueOf(animal.toUpperCase()).getAnimal().getIcon();
     }
-
+*/
 }

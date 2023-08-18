@@ -2,15 +2,16 @@ package com.javarush.island.zhidebaev.animals;
 
 import com.javarush.island.zhidebaev.entities.Animal;
 import com.javarush.island.zhidebaev.entities.Predators;
+import com.javarush.island.zhidebaev.island.Cell;
+import com.javarush.island.zhidebaev.island.Location;
+import com.javarush.island.zhidebaev.services.Randomizer;
 
 
-public class Sheep extends Animal implements Predators {
-    private final String icon= "\uD83D\uDC11";
-    public Sheep(double weight, double maxNumberOfSpecies, double speed, double satiety){
-        super(weight, maxNumberOfSpecies, speed, satiety);
-        super.setIcon(super.icon = this.icon);
+public class Sheep extends Animal {
+
+    public Sheep(String icon, double weight, double maxNumberOfSpecies, double speed, double satiety) {
+        super(icon, weight, maxNumberOfSpecies, speed, satiety);
     }
-
 
     @Override
     public void eat() {
@@ -27,9 +28,10 @@ public class Sheep extends Animal implements Predators {
         System.out.println("меня сожрали");
     }
 
-
     @Override
     public void reproduse() {
         System.out.println("я размножаюсь");
     }
+
+
 }

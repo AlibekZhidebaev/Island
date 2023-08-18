@@ -1,12 +1,15 @@
 package com.javarush.island.zhidebaev.animals;
 
 import com.javarush.island.zhidebaev.constants.IslandConstants;
+import com.javarush.island.zhidebaev.entities.Animal;
 import com.javarush.island.zhidebaev.island.Island;
+import com.javarush.island.zhidebaev.island.Cell;
+import com.javarush.island.zhidebaev.island.Location;
 import com.javarush.island.zhidebaev.services.Randomizer;
 
 import java.util.Map;
 
-    // -- Класс создания животны фабричным методом --
+    // -- Класс создания животных фабричным методом --
     public final class AnimalFactory {
 
     // -- Метод добавления животных --
@@ -18,16 +21,16 @@ import java.util.Map;
            // System.out.println("Key: " + entry.getKey() + " Value: " + entry.getValue());
         }
     }
-    // -- Метод создания животных --
-    public static void createAnimals(String animal, int amount){
-
+    // -- Метод создания разновидностей животных со случайным распределением по ячейкам острова--
+    public static void createAnimals(String animalName, int amount) {
 
         for (int i = 0; i < amount; i++) {
-            // -- Генерация локации --
-            int x = Randomizer.randomNumber(0, IslandConstants.MAX_WIDTH);
-            int y = Randomizer.randomNumber(0, IslandConstants.MAX_HEIGHT);
-            // -- Создание животных в сгенерированной локации --
-            Island.getLocation(x,y).getAnimals().add(AnimalList.create(animal));
+            // -- Получение ячеек острова со случайными координатами --
+            Cell cell = Randomizer.getRandomCell();
+            // -- Создание разновидностей животных с добавлением локации совпадающий с координатами ячейки --
+            Animal animal = AnimalList.create(animalName, new Location(cell.getX(), cell.getY()));
+            // -- Добавление в полученную ячейку созданных животных --
+            Island.getCell(cell.getX(), cell.getY()).getAnimals().add(animal);
         }
     }
 }
